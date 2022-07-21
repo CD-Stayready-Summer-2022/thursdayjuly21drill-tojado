@@ -16,6 +16,14 @@ public class Problem01 {
      * @return
      */
     public boolean lastDigit(int a, int b) {
-        return false;
+        if (a % 10 == b % 10) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
+
+
     }
 }

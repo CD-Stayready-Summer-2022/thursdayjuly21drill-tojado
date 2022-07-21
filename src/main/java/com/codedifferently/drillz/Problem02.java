@@ -12,7 +12,12 @@ public class Problem02 {
      * @return
      */
     public boolean icyHot(int temp1, int temp2) {
-        return false;
+        if (temp1 < 0 && temp2 > 100 || temp2 < 0 && temp1 > 100 ){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
 }
